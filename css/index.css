@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    
+}
+
+.content_body {
+    width: 860px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.con_left {
+    position: fixed;
+    top: 0;
+    left: 320px;
+    width: 270px; /* Điều chỉnh độ rộng theo ý muốn */
+    height: 100%; /* Cố định chiều cao theo chiều cao của màn hình */
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá dài */
+    background-color: #fff; /* Màu nền của con_left */
+    z-index: 1;
+    padding: 0px 10px;
+}
+
+
+
+.con_left-title {
+    font-size: 28px;
+    color: #267CB9;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.con_left_image {
+    width: 270px;
+    height: 270px;
+}
+
+.con_left-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.con_left-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.con_left-link {
+    font-size: 16px;
+    color: #267CB9;
+    padding: 0 10px;
+}
+
+.con_left-link:hover {
+    font-weight: bold;
+}
+
+.con_left-info {
+    text-align: left;
+    font-size: 16px;
+    color: #727272;
+}
+
+.wrap_body {
+    border-bottom: 1px solid #d2cdcd;
+    margin-top: 20px;
+}
+
+.con_right {
+    width: 500px;
+    margin-left: 370px;
+}
+
+.con_right-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222222;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d2cdcd;
+}
+
+.con_right-title1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #393939;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.con_right-title2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #494949;
+    margin-bottom: 20px;
+}
+
+.con_right-title3 {
+    font-size: 17px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.name_wrap {
+    margin-bottom: 20px;
+}
+
+.name_wrap-blod {
+    color: #222222;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.name_wrap-Normal {
+    color: #727272;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.name_wrap-github {
+    color: #267CB9;
+    font-size: 17px;
+}
+
+.name_wrap-github:hover {
+    font-weight: bold;
+}
+
+.wrap_image {
+    width: 100%;
+}
+
+.con_right-li {
+    font-size: 16px;
+    color: #267CB9;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.con_right-li:hover {
+    font-weight: bold;
+}
+
+.con_right-ul {
+    list-style: inside;
+    margin: 40px 0px 20px 40px;
+}
+
+.text_footer {
+    font-size: 15px;
+    color: #727272;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
