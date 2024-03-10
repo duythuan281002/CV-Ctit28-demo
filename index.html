@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ctit28</title>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <title>Resume/Cv Dev - Ctit28</title>
 </head>
 <body>
-    <div class="content">
-        <div class="content_body">
-            <div class="con_left">
-                <div class="con_left-title">Ctit28 Nguyễn</div>
-                <div class="con_left_image">
-                    <img src="./img/logo.jpg" alt="" class="con_left-img">
-                </div>
-                <div class="con_left-ul">
+
+                <!-- <div class="con_left-ul">
                     <a href="https://github.com/duythuan281002/CV-Ctit28-demo/blob/master/Cv_pdf.pdf" class="con_left-link">
                         Resume
                     </a>
@@ -24,208 +19,276 @@
                     <a href="https://github.com/duythuan281002/CV-Ctit28-demo" class="con_left-link">
                         GitHub
                     </a>
-                </div>
-                <div class="con_left-info">
-                    I am pursing MS degree in Business<br>Analytics at Simon Business School,<br>University of Rochester.
-                    <br><br>
-                    I am currently a Machine Learning<br>Research Intern at Skim AI Technologies<br>with a focus on NLP and Deep Learning<br>research.
-                </div>
-            </div>
-            <div class="con_right">
-                <div class="con_right-title">Portfolio</div>
-                <div class="wrap_body">
-                    <div class="con_right-title1">Natural Language Processing</div>
-                    <div class="con_right-title2">CS224n: Natural Language Processing with Deep Learning</div>
-                    <div class="con_right-title3">My complete implementation of assignments and projects in CS224n: Natural Language 
-                        Processing with Deep Learning by Stanford (Winter, 2019).</div>
-                    <a  href="https://github.com/duythuan281002/CV-Ctit28-demo">
-                        <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                    </a>
-                    <div class="name_wrap">
-                        <span class="name_wrap-blod">Neural Machine Translation:</span>
-                        <span class="name_wrap-Normal">An NMT system which translates texts from Spanish to English using 
-                            a Bidirectional LSTM encoder for the source sentence and a 
-                            Unidirectional LSTM Decoder with multiplicative attention for the target sentence (
-                            <a href="" class="name_wrap-github">GitHub</a>
-                            ).
-                        </span>
-                    </div>
-                    <div class="name_wrap">
-                        <span class="name_wrap-blod">Dependency Parsing:</span>
-                        <span class="name_wrap-Normal">A Neural Transition-Based Dependency Parsing system with one-layer MLP (
-                            <a href="" class="name_wrap-github">GitHub</a>
-                            ).
-                        </span>
-                    </div>
-                    <img src="./img/anh1.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
-                    </div>
-                    <a  href="">
-                        <img src="./img/Colab-Run_in_Google_Colab-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                    </a>
-                    <div class="name_wrap-Normal">
-                        The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the 
-                        HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare 
-                        BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers 
-                        library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
-                    </div>
-                    <img src="./img/BERT-classification.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/Jupyter-Open_Notebook-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting 
-                        and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series 
-                        data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.
-                    </div>
-                    <img src="./img/fb-food-trends.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Detect Spam Messages: TF-IDF and Naive Bayes Classifier
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/Jupyter-Open_Notebook-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        In order to predict whether a message is spam, first I vectorized text messages into a format that machine 
-                        learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to 
-                        learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel 
-                        messages into normal or spam.
-                    </div>
-                    <img src="./img/detect-spam-nlp.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title1">
-                        Data Science
-                    </div>
-                    <div class="con_right-title2">
-                        Credit Risk Prediction Web App
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/Heroku-Open_Web_App-blue.svg alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/Jupyter-Open_Notebook-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit 
-                        default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.
-                    </div>
-                    <img src="./img/credit-risk-webapp.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/Jupyter-Open_Notebook-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature 
-                        engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) 
-                        of 12293.919, ranking 95/15502, approximately top 0.6% in the Kaggle leaderboard.
-                    </div>
-                    <img src="./img/ames-house-price.jpg" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Predict Breast Cancer with RF, PCA and SVM using Python
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/Jupyter-Open_Notebook-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                        <a  href="">
-                            <img src="./img/btnGitHub.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data 
-                        using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a 
-                        patient has breast cancer.
-                    </div>
-                    <img src="./img/breast-cancer.png" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title2">
-                        Business Analytics Conference 2018: How is NYC’s Government Using Money?
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/PDF-Open_Research_Poster-blue.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million
-                         records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 
-                         18 participating colleges.
-                    </div>
-                    <img src="./img/bac2018.jpg" alt="" class="wrap_image">
-                </div>
-                <div class="wrap_body">
-                    <div class="con_right-title1">
-                        Filmed by me
-                    </div>
-                    <div>
-                        <a  href="">
-                            <img src="./img/YouTube-View_My_Films-grey.svg" alt="" style="padding-bottom:20px;" class="btnGitHub1">
-                        </a>
-                    </div>
-                    <div class="name_wrap-Normal">
-                        Besides Data Science, I also have a great passion for photography and videography. Below is a list of films 
-                        I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.
-                    </div>
-                    <ul class="con_right-ul">
-                        <li class="con_right-li">
-                            Ada Von Weiss - You Regret (Winter at Niagara)
+                </div> -->
+    <div class="wraper">
+        <div class="top">
+            <div class="top_logo">Ctit28</div>
+            <ul class="top_menu">
+                <a href="#gioithieu" class="top_menu_link">
+                    <li class="top_item">Giới thiệu</li>
+                </a>
+                <a href="#kinhnghiem" class="top_menu_link">
+                    <li class="top_item">Kinh nghiệm</li>
+                </a>
+                <a href="#giaoduc" class="top_menu_link">
+                    <li class="top_item">Giáo dục</li>
+                </a>
+                <a href="#sothich" class="top_menu_link">
+                    <li class="top_item">Sở thích</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bot">
+            <div class="left">
+                <img src="./img/avt.jpg" class="left_img" alt="">
+                <div class="left_info">
+                    <div class="left_title">Nguyễn Duy Thuần</div>
+                    <div class="left_text">Developer</div>
+                    <ul class="left_ul">
+                        <li class="left_li">
+                            <i class="fa-solid fa-location-dot left_li_icon1"></i>
+                            <span class="left_text">686/32 Cách mạng tháng 8, P5, Q.Tân Bình, Tp.Hồ Chí Minh</span>
                         </li>
-                        <li class="con_right-li">
-                            The Weight We Carry is Love - TORONTO
+                        <li class="left_li">
+                            <i class="fa-solid fa-phone left_li_icon2"></i>
+                            <span class="left_text">+84 764 513 977</span>
                         </li>
-                        <li class="con_right-li">
-                            In America - Boston 2017
-                        </li>
-                        <li class="con_right-li">
-                            In America - We Call This Place Our Home (Massachusetts)
+                        <li class="left_li">
+                            <i class="fa-solid fa-envelope left_li_icon2"></i>
+                            <span class="left_text">nguyenmap29082003@gmail.com</span>
                         </li>
                     </ul>
                 </div>
-                <div class="text_footer">
-                    © 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.
+                <div class="left_info">
+                    <div class="left_title">Các kỹ năng</div>
+                    <ul class="left_ul">
+                        <li class="left_li">
+                            <span class="left_kn">HTML</span>
+                            <div class="left_kn_back">
+                                <span style="width: 70%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">70%</span>
+                        </li>
+                        <li class="left_li">
+                            <span class="left_kn">css</span>
+                            <div class="left_kn_back">
+                                <span style="width: 80%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">80%</span>
+                        </li>
+                        <li class="left_li">
+                            <span class="left_kn">js</span>
+                            <div class="left_kn_back">
+                                <span style="width: 50%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">50%</span>
+                        </li>
+                        <li class="left_li">
+                            <span class="left_kn">java</span>
+                            <div class="left_kn_back">
+                                <span style="width: 60%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">60%</span>
+                        </li>
+                        <li class="left_li">
+                            <span class="left_kn">php</span>
+                            <div class="left_kn_back">
+                                <span style="width: 30%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">30%</span>
+                        </li>
+                        <li class="left_li">
+                            <span class="left_kn">python</span>
+                            <div class="left_kn_back">
+                                <span style="width: 40%;" class="left_show"></span>
+                            </div>
+                            <span class="left_text">40%</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left_info">
+                    <div class="left_title">Mạng xã hội</div>
+                    <ul class="left_ul">
+                        <li class="left_li">
+                            <i class="fa-brands fa-facebook left_li_icon2"></i>
+                            <span class="left_mxh">
+                                <div class="left_mxh_name">Facebook</div>
+                                <a href="https://www.facebook.com/duythuan28102002" class="left_mxh_info">duythuan28102002</a>
+                            </span>
+                        </li>
+                        <li class="left_li">
+                            <i class="fa-brands fa-instagram left_li_icon"></i>
+                            <span class="left_mxh">
+                                <div class="left_mxh_name">Instagram</div>
+                                <a href="https://www.instagram.com/ctit_2810/" class="left_mxh_info">ctit_2810</a>
+                            </span>
+                        </li>
+                        <li class="left_li">
+                            <i class="fa-brands fa-linkedin left_li_icon"></i>
+                            <span class="left_mxh">
+                                <div class="left_mxh_name">Linkedin</div>
+                                <a href="https://www.linkedin.com/in/ctit28/" class="left_mxh_info">ctit28</a>
+                            </span>
+                        </li>
+                        <li class="left_li">
+                            <i class="fa-brands fa-tiktok left_li_icon"></i>
+                            <span class="left_mxh">
+                                <div class="left_mxh_name">Tiktok</div>
+                                <a href="https://www.tiktok.com/@ndt281002" class="left_mxh_info">ndt281002</a>
+                            </span>
+                        </li>
+                        <li class="left_li">
+                            <i class="fa-brands fa-youtube left_li_icon2"></i>
+                            <span class="left_mxh">
+                                <div class="left_mxh_name">Youtube</div>
+                                <a href="https://www.youtube.com/@iamchaus2083" class="left_mxh_info">iamchaus2083</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right_info" id="gioithieu">
+                    <div class="right_title">Giới thiệu</div>
+                    <div class="right_text">Hiện tại tôi đang học năm 3 tại trường Đại học Sài gòn. Công việc của tôi cả về lập trình front-end 
+                        lẫn back-end. Mong muốn được làm việc trong môi trường chuyên nghiệp, đồng nghiệp
+                         thân thiện và chế độ phúc lợi tốt.
+                    </div>
+                </div>
+                <div class="right_info" id="kinhnghiem">
+                    <div class="right_title">Kinh nghiệm</div>
+                    <ul class="right_list">
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 1 - Năm 2 (2022)</div>
+                            <div class="right_name">Lập trình hướng đối tượng</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Java</div>
+                            <div class="right_text">Đề tài : Quản lý nhân sự</div>
+                            <div class="right_text">Công việc cụ thể : làm đồ án project làm quen
+                                với hướng đối tượng
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 2 - năm 2 (2023)</div>
+                            <div class="right_name">Lập trình Java</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Java</div>
+                            <div class="right_text">Đề tài : Quản lý nhân sự</div>
+                            <div class="right_text">Công việc cụ thể : làm đồ án project hướng đối tượng và kết hợp vớI giao diện Jrame
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 2- năm 2 (2023)</div>
+                            <div class="right_name">Lập trình Python</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Python</div>
+                            <div class="right_text">Đề tài : Game Break Out</div>
+                            <div class="right_text">Công việc cụ thể : xây dựng ứng dụng chơi game
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 1 - năm 3 (2023)</div>
+                            <div class="right_name">Công nghệ phần mềm</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Java</div>
+                            <div class="right_text">Đề tài : Quản lý quán Cafe Thun</div>
+                            <div class="right_text">Công việc cụ thể : phân tích cơ sở dữ liệu, vẽ sơ đồ 
+                                và xây dựng phần mềm
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 1 - năm 3 (2023)</div>
+                            <div class="right_name">Nhập môn phát triển ứng dụng trên thiết bị di động</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Android</div>
+                            <div class="right_text">Đề tài : Làm 4 bài tập</div>
+                            <div class="right_text">Công việc cụ thể : xây dựng phần mềm Ghi chú, Đồng hồ báo thức, 
+                                Chụp ảnh
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 2 - năm 3 (2024)</div>
+                            <div class="right_name">Xây dựng phần mềm theo mô hình phân lớp (2020)</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Java</div>
+                            <div class="right_text">Đề tài : Quản lý khoá học</div>
+                            <div class="right_text">Công việc cụ thể : phân tích cơ sở dữ liệu, vẽ sơ đồ và xây dựng 
+                                phần mềm
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">Kì 2 - năm 3 (2024)</div>
+                            <div class="right_name">Phát triển phần mềm mã nguồn mở</div>
+                            <div class="right_text">Sử dụng ngôn ngữ : Python</div>
+                            <div class="right_text">Đề tài : Game 2 người</div>
+                            <div class="right_text">Công việc cụ thể : xây dựng ứng dụng chơi game 2 người chơi
+                            </div>
+                            <a href="" class="right_btn1">
+                                <img src="./img/btnGitHub.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right_info" id="giaoduc">
+                    <div class="right_title">Giáo dục</div>
+                    <ul class="right_list">
+                        <li class="right_item">
+                            <div class="right_thgian">2009 - 2014</div>
+                            <div class="right_name">TH Lê Quý Đôn</div>
+                            <div class="right_text">Lớp 1 - 5</div>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">2014 - 2018</div>
+                            <div class="right_name">THCS Đinh Tiên Hoàng</div>
+                            <div class="right_text">Lớp 6 - 9</div>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">2018 - 2021</div>
+                            <div class="right_name">THPT Huỳnh Thúc Kháng</div>
+                            <div class="right_text">Lớp 10 - 12</div>
+                        </li>
+                        <li class="right_item">
+                            <div class="right_thgian">2021 - 2026</div>
+                            <div class="right_name">ĐH Sài Gòn</div>
+                            <div class="right_text">Ngành : Công nghệ Thông tin</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right_info" id="sothich">
+                    <div class="right_title">Sở thích</div>
+                    <ul class="right_st_list">
+                        <li class="right_st_item">
+                            <i class="fa-solid fa-book right_st_icon1"></i>
+                        </li>
+                        <li class="right_st_item">
+                            <i class="fa-solid fa-gamepad right_st_icon2"></i>
+                        </li>
+                        <li class="right_st_item">
+                            <i class="fa-solid fa-code right_st_icon3"></i>
+                        </li>
+                        <li class="right_st_item">
+                            <i class="fa-solid fa-futbol right_st_icon4"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <div class="footer">@ Bản quyền thuộc về Ctit28 | Developer</div>
+        <a href="index.html" class="btn_theTop">
+            <i class="fa-solid fa-arrow-up btn_theTop_icon"></i>
+        </a>
     </div>
-
-    
 </body>
 </html>
